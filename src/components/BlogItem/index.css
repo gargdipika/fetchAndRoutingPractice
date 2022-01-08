@@ -38,3 +38,15 @@
 .link-style {
   text-decoration: none;
 }
+
+@media screen and (max-width: 576px) {
+  .details-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .blog-image-style {
+    height: 100px;
+    width: 260px;
+  }
+}
